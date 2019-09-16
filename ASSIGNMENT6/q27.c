@@ -1,0 +1,16 @@
+//27
+
+#include<stdio.h>
+int main()
+{
+        int i,j,a,mult;
+        for(i=1;i<8;i++)
+        {
+                for(j=0;j<9-i;j++)
+                {
+                        mult=(i+3)*j;
+                        printf("%d,",mult);
+                }
+                printf("\n");
+        }
+}
